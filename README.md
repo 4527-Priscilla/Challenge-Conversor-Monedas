@@ -18,17 +18,17 @@ Este desarrollo cumple con el desafío propuesto en la formación **Oracle ONE d
 
 El programa ofrece un menú interactivo en la consola para realizar las siguientes conversiones:
 
-USD (Dólar estadounidense) → ARS (Peso argentino)
+- USD (Dólar estadounidense) → ARS (Peso argentino)
 
-ARS (Peso argentino) → USD (Dólar estadounidense)
+- ARS (Peso argentino) → USD (Dólar estadounidense)
 
-USD (Dólar estadounidense) → BRL (Real brasileño)
+- USD (Dólar estadounidense) → BRL (Real brasileño)
 
-BRL (Real brasileño) → USD (Dólar estadounidense)
+- BRL (Real brasileño) → USD (Dólar estadounidense)
 
-USD (Dólar estadounidense) → COP (Peso colombiano)
+- USD (Dólar estadounidense) → COP (Peso colombiano)
 
-COP (Peso colombiano) → USD (Dólar estadounidense)
+- COP (Peso colombiano) → USD (Dólar estadounidense)
 
 Características Técnicas Destacadas
 
@@ -47,3 +47,13 @@ Conectividad: java.net.http.HttpClient (Clases HTTP nativas de Java).
 Manejo de JSON: Gson 2.10.1 (Librería de Google para serialización/deserialización de objetos Java a JSON).
 
 API Externa: ExchangeRate-API (Endpoint /pair/ para obtener tasas de conversión directa).
+
+📂 Estructura del Proyecto
+
+El proyecto se separa en tres clases principales:
+
+- ConversorApp.java (Interfaz y control): Contiene el método main(), gestiona el menú, lee la entrada del usuario (Scanner) y presenta el resultado final.
+
+- ConsultaTasa.java (Servicio y conectividad): Se encarga de construir la URL con la API Key, realizar la solicitud HTTP y gestionar la conversión del JSON a un objeto Java mediante Gson.
+
+- ConversionData.java (Modelo de datos): Clase simple para mapear el campo clave conversion_rate de la respuesta JSON.
