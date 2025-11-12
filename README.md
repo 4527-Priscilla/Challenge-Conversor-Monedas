@@ -89,4 +89,10 @@ Abre el archivo ConsultaTasa.java y reemplaza la cadena de texto con tu clave AP
 Ejecuta la clase principal ConversorApp.java. La aplicación se iniciará en la consola, mostrando el menú de opciones.
 
 <img src="Conversor_App.jpg" alt="Imagen funcionamiento ConversorApp" width="450">
+
+Una vez ingresado el número de opción, te pedirá el valor de la moneda a cambiar.
+
 <img src="Conversor_App_Resultado.jpg" alt="Imagen resultado ConversorApp" width="600">
+
+Y ¡listo! se genera el resultado. Para terminar de usar la aplicación, elige la opción 7) Salir.
+
