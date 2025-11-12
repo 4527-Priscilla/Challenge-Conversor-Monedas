@@ -8,13 +8,13 @@
 
 <p align="center">---------------------------------------------------------------------------------------------------------------------------------------------------</p>
 
-**💰 Conversor de Moneda (Oracle ONE y Alura Latam)**
+# :moneybag: Conversor de Monedas (Oracle ONE y Alura Latam)
 
 Este proyecto es una aplicación de consola desarrollada en Java que permite a los usuarios realizar conversiones de moneda en tiempo real, obteniendo las tasas de cambio actualizadas a través de una API externa.
 
 Este desarrollo cumple con el desafío propuesto en la formación **Oracle ONE de Alura Latam.**
 
-🚀 Funcionalidades
+## :hammer_and_wrench: Funcionalidades :hammer_and_wrench:
 
 El programa ofrece un menú interactivo en la consola para realizar las siguientes conversiones:
 
@@ -30,15 +30,15 @@ El programa ofrece un menú interactivo en la consola para realizar las siguient
 
 - COP (Peso colombiano) → USD (Dólar estadounidense)
 
-Características Técnicas Destacadas
+## Características técnicas destacadas
 
 Lógica de Conversión: El cálculo se realiza mediante la fórmula Cantidad * Tasa_Obtenida.
 
 Manejo de Errores: Incluye robustos bloques try-catch para gestionar excepciones de red (IOException), interrupciones (InterruptedException) y errores de formato de entrada (InputMismatchException o JsonSyntaxException).
 
-Menú Iterativo: La aplicación utiliza un bucle do-while para mantener el menú activo hasta que el usuario decida salir (opción 7).
+Menú Iterativo: La aplicación utiliza un bucle do-while para mantener el menú activo hasta que el usuario decida salir **(opción 7).**
 
-🛠️ Tecnologías y Librerías
+## :computer: Tecnologías y librerías 
 
 Lenguaje: Java 17+
 
@@ -48,7 +48,7 @@ Manejo de JSON: Gson 2.10.1 (Librería de Google para serialización/deserializa
 
 API Externa: ExchangeRate-API (Endpoint /pair/ para obtener tasas de conversión directa).
 
-📂 Estructura del Proyecto
+## :file_folder: Estructura del proyecto
 
 El proyecto se separa en tres clases principales:
 
@@ -56,4 +56,30 @@ El proyecto se separa en tres clases principales:
 
 - ConsultaTasa.java (Servicio y conectividad): Se encarga de construir la URL con la API Key, realizar la solicitud HTTP y gestionar la conversión del JSON a un objeto Java mediante Gson.
 
-- ConversionData.java (Modelo de datos): Clase simple para mapear el campo clave conversion_rate de la respuesta JSON.
+- ConversionDatos.java (Modelo de datos): Clase simple para mapear el campo clave conversion_rate de la respuesta JSON.
+
+## :grey_exclamation: Cómo ejecutar el proyecto
+
+Para ejecutar este proyecto en tu entorno de desarrollo (IDE como IntelliJ IDEA o Eclipse), sigue estos pasos:
+
+**1. Obtener la API Key**
+
+Regístrate en ExchangeRate-API y obtén tu clave personal.
+
+**2. Configurar la dependencia Gson**
+
+Este proyecto requiere la librería Gson. Debe ser añadida como una dependencia externa (un archivo .jar) en tu proyecto:
+
+Descarga el archivo gson-2.10.1.jar.
+
+En tu IDE, añade este archivo al Classpath o como una Librería Externa de tu módulo.
+
+**3. Insertar la API Key**
+
+Abre el archivo ConsultaTasa.java y reemplaza la cadena de texto con tu clave API obtenida:
+
+private static final String API_KEY = "TU_CLAVE_AQUI"; // <-- ¡Reemplaza este valor!
+
+**4. Compilar y ejecutar**
+
+Ejecuta la clase principal ConversorApp.java. La aplicación se iniciará en la consola, mostrando el menú de opciones.
