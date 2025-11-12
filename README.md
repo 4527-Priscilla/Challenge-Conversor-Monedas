@@ -82,10 +82,10 @@ En tu IDE, añade este archivo al Classpath o como una Librería Externa de tu m
 Abre el archivo ConsultaTasa.java y reemplaza la cadena de texto con tu clave API obtenida:
 
 *private static final String API_KEY = "TU_CLAVE_AQUI";* // <-- **¡Reemplaza este valor!**
-<img src="Uso_API_Key.jpg" alt="Imagen código API Key">
+<img src="Uso_API_Key.jpg" alt="Imagen código API Key" width="1000">
 
 <ins>**4. Compilar y ejecutar**</ins>
 
 Ejecuta la clase principal ConversorApp.java. La aplicación se iniciará en la consola, mostrando el menú de opciones.
 
-<img src="ConversorApp.jpg" alt="Imagen funcionamiento ConversorApp">
+<img src="Conversor_App.jpg" alt="Imagen funcionamiento ConversorApp" width="400">
