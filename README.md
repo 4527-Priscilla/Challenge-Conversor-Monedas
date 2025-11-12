@@ -65,6 +65,9 @@ Para ejecutar este proyecto en tu entorno de desarrollo (IDE como IntelliJ IDEA 
 <ins>**1. Obtener la API Key**</ins>
 
 Regístrate en ExchangeRate-API y obtén tu clave personal.
+<p align="left">
+<img src="Mail_API_Key.jpg" alt="Imagen mail API Key" width="600">
+</p>
 
 <ins>**2. Configurar la dependencia Gson**</ins>
 
