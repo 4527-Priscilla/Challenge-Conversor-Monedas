@@ -30,7 +30,7 @@ El programa ofrece un menú interactivo en la consola para realizar las siguient
 
 - COP (Peso colombiano) → USD (Dólar estadounidense)
 
-## Características técnicas destacadas
+## :grey_exclamation: Características técnicas destacadas
 
 Lógica de Conversión: El cálculo se realiza mediante la fórmula Cantidad * Tasa_Obtenida.
 
@@ -58,15 +58,15 @@ El proyecto se separa en tres clases principales:
 
 - ConversionDatos.java (Modelo de datos): Clase simple para mapear el campo clave conversion_rate de la respuesta JSON.
 
-## :grey_exclamation: Cómo ejecutar el proyecto
+## :thinking: Cómo ejecutar el proyecto
 
 Para ejecutar este proyecto en tu entorno de desarrollo (IDE como IntelliJ IDEA o Eclipse), sigue estos pasos:
 
-**1. Obtener la API Key**
+<ins>**1. Obtener la API Key**</ins>
 
 Regístrate en ExchangeRate-API y obtén tu clave personal.
 
-**2. Configurar la dependencia Gson**
+<ins>**2. Configurar la dependencia Gson**</ins>
 
 Este proyecto requiere la librería Gson. Debe ser añadida como una dependencia externa (un archivo .jar) en tu proyecto:
 
@@ -74,12 +74,12 @@ Descarga el archivo gson-2.10.1.jar.
 
 En tu IDE, añade este archivo al Classpath o como una Librería Externa de tu módulo.
 
-**3. Insertar la API Key**
+<ins>**3. Insertar la API Key**</ins>
 
 Abre el archivo ConsultaTasa.java y reemplaza la cadena de texto con tu clave API obtenida:
 
-private static final String API_KEY = "TU_CLAVE_AQUI"; // <-- ¡Reemplaza este valor!
+*private static final String API_KEY = "TU_CLAVE_AQUI";* // <-- **¡Reemplaza este valor!**
 
-**4. Compilar y ejecutar**
+<ins>**4. Compilar y ejecutar**</ins>
 
 Ejecuta la clase principal ConversorApp.java. La aplicación se iniciará en la consola, mostrando el menú de opciones.
