@@ -89,3 +89,4 @@ Abre el archivo ConsultaTasa.java y reemplaza la cadena de texto con tu clave AP
 Ejecuta la clase principal ConversorApp.java. La aplicación se iniciará en la consola, mostrando el menú de opciones.
 
 <img src="Conversor_App.jpg" alt="Imagen funcionamiento ConversorApp" width="400">
+<img src="Conversor_App_Resultado.jpg" alt="Imagen resultado ConversorApp" width="400">
