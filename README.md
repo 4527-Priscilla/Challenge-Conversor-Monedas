@@ -3,7 +3,7 @@
 <h3 align="center">Alura Latam ONE. Practicando con Java: Challenge Conversor de Monedas.</h3>
 
 <p align="center">
-    <img src="Monedas_Apiladas.jpg" alt="Imagen monedas apiladas" width="700">
+    <img src="assets/Monedas_Apiladas.jpg" alt="Imagen monedas apiladas" width="700">
 </p>
 
 <p align="center">----------------------------------------------------------------------------------------------------------</p>
@@ -70,7 +70,7 @@ Para ejecutar este proyecto en tu entorno de desarrollo (IDE como IntelliJ IDEA 
 
 Regístrate en ExchangeRate-API y obtén tu clave personal.
 <p align="left">
-<img src="Mail_API_Key.jpg" alt="Imagen mail API Key" width="600">
+<img src="assets/Mail_API_Key.jpg" alt="Imagen mail API Key" width="600">
 </p>
 
 <ins>**2. Configurar la dependencia Gson**</ins>
@@ -86,18 +86,18 @@ En tu IDE, añade este archivo al Classpath o como una Librería Externa de tu m
 Abre el archivo ConsultaTasa.java y reemplaza la cadena de texto con tu clave API obtenida:
 
 *private static final String API_KEY = "TU_CLAVE_AQUI";* // <-- **¡Reemplaza este valor!**
-<img src="Uso_API_Key.jpg" alt="Imagen código API Key" width="1000">
+<img src="assets/Uso_API_Key.jpg" alt="Imagen código API Key" width="1000">
 
 <ins>**4. Compilar y ejecutar**</ins>
 
 Ejecuta la clase principal ConversorApp.java. La aplicación se iniciará en la consola, mostrando el menú de opciones.
 
-<img src="Conversor_App_Alura.jpg" alt="Imagen funcionamiento ConversorApp" width="500">
+<img src="assets/Conversor_App_Alura.jpg" alt="Imagen funcionamiento ConversorApp" width="500">
 
 Una vez ingresado el número de opción, te pedirá el valor de la moneda a cambiar.
 Y ¡listo! se genera el resultado.
 
-<img src="Conversor_Finalizado.jpg" alt="Imagen finalizado ConversorApp" width="350">
+<img src="assets/Conversor_Finalizado.jpg" alt="Imagen finalizado ConversorApp" width="350">
 
 Para terminar de usar la aplicación, elige la opción 9) Salir.
 
