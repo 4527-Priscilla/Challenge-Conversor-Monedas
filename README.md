@@ -91,8 +91,9 @@ Ejecuta la clase principal ConversorApp.java. La aplicación se iniciará en la 
 <img src="Conversor_App_Alura.jpg" alt="Imagen funcionamiento ConversorApp" width="450">
 
 Una vez ingresado el número de opción, te pedirá el valor de la moneda a cambiar.
+Y ¡listo! se genera el resultado.
 
-<img src="Conversor_App_Resultado.jpg" alt="Imagen resultado ConversorApp" width="600">
+<img src="Conversor_App_Finalizado.jpg" alt="Imagen finalizado ConversorApp" width="600">
 
-Y ¡listo! se genera el resultado. Para terminar de usar la aplicación, elige la opción 7) Salir.
+Para terminar de usar la aplicación, elige la opción 9) Salir.
 
