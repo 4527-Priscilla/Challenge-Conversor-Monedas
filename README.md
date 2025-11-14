@@ -30,13 +30,17 @@ El programa ofrece un menú interactivo en la consola para realizar las siguient
 
 - COP (Peso colombiano) → USD (Dólar estadounidense)
 
+- USD (Dólar estadounidense) → CLP (Peso chileno)
+
+- CLP (Peso chileno) → USD (Dólar estadounidense)
+
 ## :grey_exclamation: Características técnicas destacadas
 
-Lógica de Conversión: El cálculo se realiza mediante la fórmula Cantidad * Tasa_Obtenida.
+Lógica de conversión: El cálculo se realiza mediante la fórmula Cantidad * Tasa_Obtenida.
 
-Manejo de Errores: Incluye robustos bloques try-catch para gestionar excepciones de red (IOException), interrupciones (InterruptedException) y errores de formato de entrada (InputMismatchException o JsonSyntaxException).
+Manejo de errores: Incluye robustos bloques try-catch para gestionar excepciones de red (IOException), interrupciones (InterruptedException) y errores de formato de entrada (InputMismatchException o JsonSyntaxException).
 
-Menú Iterativo: La aplicación utiliza un bucle do-while para mantener el menú activo hasta que el usuario decida salir **(opción 7).**
+Menú iterativo: La aplicación utiliza un bucle do-while para mantener el menú activo hasta que el usuario decida salir **(opción 9).**
 
 ## :computer: Tecnologías y librerías 
 
@@ -46,7 +50,7 @@ Conectividad: java.net.http.HttpClient (Clases HTTP nativas de Java).
 
 Manejo de JSON: Gson 2.10.1 (Librería de Google para serialización/deserialización de objetos Java a JSON).
 
-API Externa: ExchangeRate-API (Endpoint /pair/ para obtener tasas de conversión directa).
+API externa: ExchangeRate-API (Endpoint /pair/ para obtener tasas de conversión directa).
 
 ## :file_folder: Estructura del proyecto
 
@@ -88,12 +92,12 @@ Abre el archivo ConsultaTasa.java y reemplaza la cadena de texto con tu clave AP
 
 Ejecuta la clase principal ConversorApp.java. La aplicación se iniciará en la consola, mostrando el menú de opciones.
 
-<img src="Conversor_App_Alura.jpg" alt="Imagen funcionamiento ConversorApp" width="450">
+<img src="Conversor_App_Alura.jpg" alt="Imagen funcionamiento ConversorApp" width="500">
 
 Una vez ingresado el número de opción, te pedirá el valor de la moneda a cambiar.
 Y ¡listo! se genera el resultado.
 
-<img src="Conversor_App_Finalizado.jpg" alt="Imagen finalizado ConversorApp" width="600">
+<img src="Conversor_Finalizado.jpg" alt="Imagen finalizado ConversorApp" width="350">
 
 Para terminar de usar la aplicación, elige la opción 9) Salir.
 
